@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Redaction App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Text Redaction App</h1>
+    <div class="container">
+        <label for="originalText">Enter your text:</label>
+        <textarea id="originalText" rows="4" cols="50" placeholder="Enter your text here"></textarea>
+        <br>
+        <label for="wordsToRedact">Words to redact (space-separated):</label>
+        <input type="text" id="wordsToRedact" placeholder="Words to redact">
+        <br>
+        <button id="redactButton">Redact Now</button>
+    </div>
+    <div class="container">
+        <h2>Redacted Text:</h2>
+        <p id="redactedText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
